@@ -1,8 +1,6 @@
 module github.com/v2fly/v2ray-core/v5
 
-go 1.22
-
-toolchain go1.22.7
+go 1.23.0
 
 require (
 	github.com/adrg/xdg v0.5.3
@@ -40,7 +38,7 @@ require (
 	golang.org/x/crypto v0.33.0
 	golang.org/x/net v0.35.0
 	golang.org/x/sync v0.11.0
-	golang.org/x/sys v0.30.0
+	golang.org/x/sys v0.34.0
 	google.golang.org/grpc v1.70.0
 	google.golang.org/protobuf v1.36.5
 	gopkg.in/yaml.v3 v3.0.1
